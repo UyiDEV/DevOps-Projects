@@ -1,23 +1,27 @@
 # WEB STACK IMPLEMENTATION (LAMP STACK)
+
 ## LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
 
 ## STEP 1 - Setup Instance
+
 We begin by creating our AWS account, then we launch AWS EC2 instance of t2.micro family with Ubuntu Server 20.04 LTS.
 ![EC2 instance](images/EC2-instance.png)
 
+Run this command to ensure your key is not publicly viewable `chmod 400 <your-PEM-file-name>.pem`
+
 ---
 Next we will get the ssh with which we will connnect to the instance.
-![SSH](images/ssh)
+![SSH](images/ssh.png)
 
 ---
 
 Now we will connect to our EC2 instance using our windows terminal.
-![Terminal](photos/Terminal-ssh)
+![Terminal](images/Terminal-ssh.png)
 
 ---
 
 We are successfully connected to the instance
-![Instance-connected](photos/Instance-connected)
+![Instance-connected](images/Instance-connected.png)
 
 ---
 
