@@ -14,7 +14,6 @@ Next we will get the ssh with which we will connnect to the instance.
 ![SSH](images/ssh.png)
 
 ---
-
 Now we will connect to our EC2 instance using our windows terminal.
 ![Terminal](images/Terminal-ssh.png)
 
